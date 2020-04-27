@@ -21,7 +21,7 @@
 
 ## The Code
 
-   This data has been created by scraping websites using Pyhon code. The file is a Jupyter notebook and requires Jupuyer to be installed before exexution.
+   This data has been created by scraping websites using Python code. The file is a Jupyter notebook and requires Jupyter to be installed before exexution. Some other pre-requisites are mentioned below.
    ### Pre-requisites and Dependencies
    ##### - Beautiful Soup 4
    ##### - Requests
