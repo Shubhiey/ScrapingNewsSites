@@ -1,7 +1,7 @@
 # ScrapingNewsSites
 
-## The Data Set
-   The dataset is a csv file containing the following three attributes.
+## The Data Set ( viral-news-dataset.csv )
+   The dataset is a csv file (viral-news-dataset.csv) containing the following three attributes.
     Id - generated Id for a single row
     Headline - The news headline in text format.
     ChanceOfVirality - The chances of the news going viral
@@ -16,7 +16,7 @@
    ##### - Hindustan Times
    ##### - Yahoo News
 
-   The data set has currently 9.8K rows, but it can vary between 9.5K-11K rows based on the content available on these websites at the time you run the python code. This news was collected only on a single day, and you can obviously get more data by running the python code for more number of days and keep appending the data generated.
+   The data set has currently around 10,000(9.96K) rows, but it can vary between 9.5K-11K rows based on the content available on these websites at the time you run the python code. This news was collected only on a single day, and you can obviously get more data by running the python code for more number of days and keep appending the data generated.
 
 
 ## The Code
@@ -27,7 +27,7 @@
    ##### - Requests
    ##### - lxml
    ##### - Pandas
-   To anticipate the virality of a news, the code looks for certain keywords in the headlines which are listed in the google sheet below (The Common words column is not used as they are common to many sentences).
+   To anticipate the virality of a news, the code looks for certain keywords in the headlines which are listed in the google sheet (original source) below, or in the words.csv file (The Common words column is not used as they are common to many sentences).
     https://docs.google.com/spreadsheets/d/1lzJ9WBHcpLg4Un_Y6ogXfoQsrJ0oulKYv04NCXxuoSc/edit#gid=8
 
    ### Important:- This process, to anticipate virality of a news, has been inspired by the blog below.
